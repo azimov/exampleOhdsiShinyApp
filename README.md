@@ -4,7 +4,7 @@ This application should work installing packages initiated in the renv and Cohor
 
 ```
 renv::restore()
-# For some reason this won't snapshot
+# For some reason this wouldn't snapshot
 remotes::install_github("OHDSI/CohortDiagnostics", ref = "develop")
 ```
 
